@@ -1,0 +1,12 @@
+@media print {
+
+    .qrImage {
+        margin-bottom: 10px;
+        padding-top: 5%;
+    }
+    .bin-img {
+        float: left;
+        text-align: left;
+        width: 50%;
+    }
+}

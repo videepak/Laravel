@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "public/assets/vendors/autosize",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - public/assets/vendors/autosize",
+			"detail": "node build"
+		}
+	]
+}

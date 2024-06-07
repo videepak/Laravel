@@ -1,0 +1,426 @@
+body{font-family: 'Nunito Sans', sans-serif;
+font-size:18px;}
+img{max-width:100%;}
+.headingBox {
+    width: 78%;
+    margin: 0 auto;
+}
+.MainHeading{
+	background:#f3f3f3;
+}
+
+.MainHeading h1 {
+    padding: 30px 0;
+    color: #5d5d5f;
+    font-size: 1.333em;
+}
+.textwithform {
+    margin: 80px 0;
+}
+.textwithform h2 {
+    font-weight: bold;
+    font-size: 1.667em;
+}
+.listText ul {padding-left:0;}
+.listText ul li {
+    position: relative;
+    padding: 10px 0 10px 30px;
+    list-style-type: none;
+}
+.listText ul li:before {
+    position: absolute;
+    content: "";
+    background: url(../images/check.jpg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    left: 0px;
+    top: 12px;
+}
+.listText ul li:last-child {
+    font-size: 1.222em;
+    margin-top: 20px;
+}
+.listText ul li:last-child:before {display:none;}
+.listText ul li:last-child a{color:black;text-decoration:underline;}
+.listText ul li:last-child a:hover {
+    color: #17b07a;
+    text-decoration: none;
+}
+.sideForm input[type="text"], .sideForm input[type="email"], .sideForm select, .sideForm input[type="password"] {
+    width: 100%;font-size: 0.889em;
+    padding: 8px 10px;
+	color:#596e71;
+    border: none;
+    border-radius: 5px;
+}
+.sideForm {
+    background: #17b07a;
+    padding: 40px 20px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.textwithform h3 {
+    font-size: 1.470em;
+    line-height: 25px;
+    font-weight: bold;
+}
+.sideForm p span {
+    line-height: 20px;
+    font-size: 14px;
+    display: block;
+}
+.submitBtn {
+    display: block;
+	border:2px solid #000;
+	text-transform: uppercase;
+    background: #000;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.submitBtn:hover, .tryBtn:hover{background:transparent;color:white;text-decoration:none;border:2px solid white;}
+
+.sideSteps{
+	  background: #17b07a;
+    padding: 40px 25px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.sideSteps h3 {
+    margin-bottom: 20px;
+}
+.sideSteps ul {
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+.sideSteps ul li {
+    position: relative;
+    padding: 5px 0;
+    list-style-type: none;
+}
+.sideSteps a {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+.sideSteps a:hover {
+    text-decoration: none;
+    color: black;
+}
+.sideForm p span a {
+    color: white;
+    text-decoration: underline;
+}
+.sideForm p span a:hover {
+    text-decoration: none;
+    color: black;
+}
+.packages ul {
+    box-shadow: 0px 0px 4px 1px #dcdada;
+    padding: 40px 20px 50px;
+    text-align: center;
+}
+.packages ul li {
+    position: relative;
+    list-style-type: none;
+    
+}
+.packages ul li:nth-child(2) {
+    font-size: 2.500em;
+    font-weight: bold;
+    color: #17b07a;
+    margin-top: 30px;
+}
+.packages ul li:first-child {
+    font-size: 1.556em;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.packages ul li span {
+    display: block;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.packages ul li:last-child a {
+    color: white;
+	    font-weight: 600;
+    background: #17b07a;
+    border: 1px solid #17b07a;
+    text-transform: uppercase;
+    padding: 5px 25px;
+    display: block;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 0.833em;
+}
+.packages ul li:last-child a:hover{color:#17b07a;background:transparent;text-decoration:none;}
+
+.packages {
+    margin: 90px 0;
+}
+
+.tryBtn {
+    display: inline-block;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    background: #000;
+    font-size: 0.833em;
+    font-weight: normal;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.tryBtnBg {
+    display: inline-block;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    background: #000;
+    font-size: 0.833em;
+    font-weight: normal;
+    padding: 10px 20px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.tryBtnBg:hover{background: #17b07a !important;color:white;text-decoration:none;border:2px solid white;}
+.TablePart table tr:first-child {
+    text-align: center;
+    background: #17b07a !important;
+    color: white;
+}
+.TablePart .table td, .TablePart .table th {
+    padding: 10px 20px;
+    text-align: center;
+	border-top:none;
+    vertical-align: middle;
+    border-left: 1px solid #c0c0c0;
+}
+.TablePart .table td:first-child{
+    text-align: left;
+    border-left: transparent;
+}
+.TablePart .table tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}
+.TablePart .table th:first-child {border-left: transparent;}
+	.tableResp{overflow-x:auto;}
+.featurBox {
+    padding: 90px;
+    background: #f3f3f3;
+}
+.feature {
+    margin: 80px 0;
+}
+
+.featurBox ul {
+	width:80%;
+    display: table;
+    margin: 0 auto;
+    padding-left: 0;
+}
+.feature h2, .TablePart h2{
+	    color: #564f47;
+    margin-bottom: 30px;
+}
+.featurBox p {
+    margin-bottom: 5px;
+}
+
+.feature ul li {
+    list-style-type: none;
+    position: relative;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background: white;
+}
+.feature ul li a:after {
+    position: absolute;
+    content: "\f067";
+    right: 30px;
+	    cursor: pointer;
+    top: 0;
+    font-weight: 800;
+    font-family: "Font Awesome\ 5 Free";
+}
+.faqs ul {
+    padding-left: 0;
+}
+.faqs ul li {
+    border: 1px solid #cecece;
+    margin: 30px 0;
+    padding: 20px;
+    list-style-type: none;
+    position: relative;
+}
+.faqs ul li a:after {
+	
+    position: absolute;
+    content: "\f067";
+    right: 30px;
+	cursor:pointer;
+    top: 0;
+    font-weight: 800;
+    font-family: "Font Awesome\ 5 Free";
+}
+
+.featurBox a, .faqs a {
+    color: black;
+	display:block;text-decoration: none;
+	width:100%;
+position:relative;
+}
+.faqs p {
+    margin-bottom: 5px;
+}
+
+.card {
+    border: none;
+    margin: 10px 0;
+}
+.card-header {
+    padding: 5px 20px;
+	background:transparent;
+	border-bottom:none;
+}
+
+.featurBoxInner {
+    width: 80%;
+    margin: 0 auto;
+}
+ .featurBoxInner .card-body {
+    padding: 0 30px;
+}
+.card-header button, .card-header1 button {
+    position: relative;
+    width: 100%;
+	color:black;
+    background: white;
+    text-align: left;
+}
+.card-header .btn, .card-header1 .btn{text-decoration:none;}
+.card-header button i{
+    position: absolute;
+    right: 20px;
+}
+ .card-header1 button i{
+    position: absolute;
+    right: 20px;
+	top:12px;
+}
+.faqsBoxInner .card {
+    border: 1px solid #cecece !important;
+    margin: 28px 0;
+	     padding: 15px;
+}
+div.faqsBoxInner .card-body {
+    padding: 0 15px;
+}
+
+.card-header1{
+
+padding:0;
+    list-style-type: none;
+    position: relative;
+}
+.faqs h2 {
+    color: #564f47;
+}
+.fooBtns ul li {
+    margin: 0 5px;
+    display: inline-block;
+}
+.fooBtns {
+    margin-top: 100px;
+    text-align: right;
+}
+.fooBtns ul{margin-bottom:0;}
+a.feedbckBtn {
+    text-transform: uppercase;
+    color: white;text-decoration: none;
+    font-size: 0.833em;
+    border-radius: 5px;
+    background: #17b07a;
+    padding: 10px 20px;
+}
+a.feedbckBtn:hover {
+    background: black;
+}
+a.contBtn {
+    text-transform: uppercase;
+    color: white;
+	text-decoration: none;
+    font-size: 0.833em;
+    border-radius: 5px;
+    background: #000000;
+    padding: 10px 20px;
+}
+a.contBtn:hover {
+    background: #17b07a;
+}
+
+
+@media(max-width:767px){
+	.sideSteps {
+    margin-top: 30px;}
+	.TablePart .table td, .TablePart .table th {
+    padding: 10px;
+    text-align: center;
+    border-top: none;
+    vertical-align: middle;
+    border-left: 1px solid #c0c0c0;
+}
+
+a.contBtn {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 0.833em;
+    border-radius: 5px;
+    background: #000000;
+    padding: 10px;
+}
+a.feedbckBtn {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 0.833em;
+    border-radius: 5px;
+    background: #17b07a;
+    padding: 10px;
+}
+	.card-header {
+    padding: 5px 0px;
+    background: transparent;
+    border-bottom: none;
+}
+.featurBoxInner .card-body {
+    padding: 0 15px;
+}
+}
+
+@media(max-width:991px){
+.featurBoxInner {
+    width: 100%;
+    margin: 0 auto;
+}
+.featurBox {
+    border: 1px solid #f3f3f3;
+    padding: 0;
+    background: transparent;
+}
+.card-header button i {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+}

@@ -1,0 +1,230 @@
+.btn-primary {
+    color: #fff;
+    background-color: #3F5368 !important;
+    border-color: #3F5368 !important;
+}
+
+.panel_toolbox>li>a:hover {
+    background: #3F5368 !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #3F5368 !important;
+    border-color: #3F5368 !important;
+}
+
+logo-line {
+    margin-top: 12%;	
+}
+
+.block {
+    text-align: center;
+    vertical-align: middle;
+}
+.circle {
+    background: transparent;
+    border-radius: 200px;
+    color: white;
+    height: 160px;
+    font-weight: bold;
+    width: 160px;
+    display: table;
+    margin: 20px auto 10px;
+    border: 3px solid #808080;
+}
+.circle p {
+    font-size: xx-large;
+    vertical-align: middle;
+    display: table-cell;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.dashboard-valet-trash  .x_panel {
+    background-image: url(assets/images/dashboard-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    color: #fff;
+    position: relative;
+    padding: 0;
+}
+.dashboard-valet-trash  .x_panel .x_content *{color: #fff;}
+.dashboard-valet-trash .x_panel:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(19, 28, 37, 0.83);
+}
+.dashboard-valet-trash .x_panel .x_title {
+    background: #2a3f53;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+}
+.dashboard-valet-trash .x_title h2 {
+
+    font-weight: 600;
+}
+.dashboard-valet-trash .profile_title {
+    background: transparent;
+}
+.dashboard-valet-trash 
+.x_panel 
+.x_title 
+.form-group, 
+.dashboard-valet-trash 
+.x_panel 
+.x_title 
+.input-group{
+    margin-bottom: 0;
+}
+.dashboard-valet-trash 
+.profile_left li{
+    font-size: 16px;
+    line-height: 24px;
+}
+.dashboard-valet-trash
+.profile_left h3 {
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.dashboard-valet-trash
+.profile_left li i {
+    width: 25px;
+    text-align: center;
+}
+.dashboard-valet-trash
+.x_content h4 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.dashboard-valet-trash
+.x_content {
+    padding: 35px 10px;
+}
+.dashboard-valet-trash
+.x_panel
+.x_content
+.col-sm-5,
+.dashboard-valet-trash
+.x_panel
+.x_content
+.col-sm-7  {
+    padding: 0 15px;
+}
+
+
+.violation-text 
+{    font-size: 16px;
+     display: block;
+     padding-top: 10px;
+     position: relative;}
+
+.violation-text:before{
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 2px;
+    z-index: 0;
+    top: 2px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    margin: auto;
+}
+.dashboard-valet-trash .top_search input::placeholder { color: #fff !important; }
+.dashboard-valet-trash .top_search .form-control {
+    box-shadow: none;
+    border-radius: 3px;
+    padding-left: 15px;
+    border: 1px solid #fff;
+    font-size: 15px;
+    background: transparent;
+    color: #fff !important;
+}
+.dashboard-valet-trash .top_search .btn-success {
+    border-radius: 0 5px 5px 0 !important;
+    background-color: #fff;
+    border-color: #fff;
+    color: #333 !important;
+}
+
+.autocomplete-suggestions {
+    border: 1px solid #fff;
+    background: #fff;
+    cursor: default;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 24px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-radius: 0;
+}
+.autocomplete-suggestion {
+    padding: 5px 15px;
+    font-size: 15px;
+}
+
+@media (max-width:1199px){
+    .dashboard-valet-trash  .circle {
+        height: 120px;
+        width: 120px;
+    }.dashboard-valet-trash .x_content {
+        padding: 15px 10px;
+    }
+    .dashboard-valet-trash .profile_left li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .dashboard-valet-trash .x_content {
+        padding: 20px 0;
+    }
+    .violation-text {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+}
+@media (max-width:767px){
+    .dashboard-valet-trash .x_title h2 {
+        margin-bottom: 15px;
+    }
+    .dashboard-valet-trash .x_content {
+        padding: 0 0 10px;
+    }
+    .p-0-mob{padding: 0 !important ;}
+}
+
+.error-template {padding: 40px 15px;text-align: center;}
+svg > g > g:last-child { pointer-events: none }
+
+.my-custom-scrollbar {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: auto;
+}

@@ -1,0 +1,38 @@
+.qrImage {
+    margin-bottom: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+@media print and (orientation: landscape) {
+
+    .qrImage {
+        margin-bottom: 10px;
+        max-width: 260px;
+    }
+    .qrImage img {
+        max-width: 100%;
+    }
+    .barcode-img {
+        margin-bottom: 5px;
+    }
+    .bar-code {
+        float: left;
+        width: 74%;
+        text-align: right;
+    }
+    .bin-img {
+        float: left;
+        text-align: left;
+        width: 25%;
+    }
+    .barcode-name {
+        display: inline-block;
+        width: 100%;
+    }
+    .barcode-name {
+        margin: -40px 0 0 0;
+    }
+    .bar-code p {
+        font-weight: 600;
+    }
+}
